@@ -26,19 +26,19 @@ public class Calculadora {
 
 		switch (opcion) {
 		case 3:
-			// System.out.println("La opcion elegida es la 2");
+			 System.out.println("La opcion elegida es la 3");
 			resultado = a + b;
 			break;
 		case 4:
-			// System.out.println("La opcion elegida es la 4");
+			 System.out.println("La opcion elegida es la 4");
 			resultado = a - b;
 			break;
 		case 1:
-			// System.out.println("La opcion elegida es la 1");
+			 System.out.println("La opcion elegida es la 1");
 			resultado = a * b;
 			break;
 		case 2:
-			// System.out.println("La opcion elegida es la 3");
+			 System.out.println("La opcion elegida es la 2");
 			resultado = a / b;
 			break;
 		default:
