@@ -15,7 +15,7 @@ public class Calculadora {
 
 		do {
 			System.out.println(
-					"Ingrese su operación /n 1 para sumar /n 2 para restar /n 3 para multiplicar /n 4 para dividir");
+					"Ingrese su operación /n 3 para sumar /n 4 para restar /n 1 para multiplicar /n 2 para dividir");
 			opcion = teclado.nextInt();
 
 		} while (opcion < 1 || opcion > 4);
@@ -25,19 +25,19 @@ public class Calculadora {
 		b = teclado.nextInt();
 
 		switch (opcion) {
-		case 1:
+		case 3:
 			// System.out.println("La opcion elegida es la 2");
 			resultado = a + b;
 			break;
-		case 2:
+		case 4:
 			// System.out.println("La opcion elegida es la 4");
 			resultado = a - b;
 			break;
-		case 3:
+		case 1:
 			// System.out.println("La opcion elegida es la 1");
 			resultado = a * b;
 			break;
-		case 4:
+		case 2:
 			// System.out.println("La opcion elegida es la 3");
 			resultado = a / b;
 			break;
